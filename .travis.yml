@@ -17,10 +17,7 @@ install:
 script:
   - yarn lint
   - yarn build --base-href https://leoassuncao.github.io/github-pages/
-  - htmlhint index.html
-  - jshint javascripts/**/*.{js,json}
-  - csslint **/*.css
-  - mocha javascripts/tests/*.js
+  
 deploy:
   provider: pages
   skip_cleanup: true
