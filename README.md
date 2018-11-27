@@ -10,8 +10,8 @@ GithubPages is a personal learning project. It acts like a testing environment f
 
 ## Objectives 
 
-    Github Deploy
-    Travis CI
+   - [x] Github Deploy
+   - [x] Travis CI
     
 ## Development server
 
