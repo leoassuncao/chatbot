@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - "11.1.0"
-dist: trusty
-sudo: false
+  - '11.1.0'
+
 
 branches:
   only:
