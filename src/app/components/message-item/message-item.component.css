@@ -12,6 +12,7 @@
 }
 .timeform .timestamp {
   font-size: 0.6em;
+  float: right;
 }
 .avatar {
   width: 50px;
@@ -19,5 +20,5 @@
 }
 
 .user-msg {
-	background-color: #f0f;
+	background-color: #ccc;
 }
