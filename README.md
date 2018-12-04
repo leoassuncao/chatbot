@@ -6,13 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## About
 
-GithubPages is a personal learning project. It acts like a testing environment for myself
+GithubPages was first a repo for me to learn how to deploy an angular page to GithubPages. Then, it evolved to include a Continuous Integration with Travis. And at this moment, it evolved again to be a personal chatbot using Dialogflow. It can evolve again anything, who knows.
 
 ## Objectives 
 
    - [x] Github Deploy
    - [x] Travis CI
-    
+   - [x] Chatbot
+   
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
