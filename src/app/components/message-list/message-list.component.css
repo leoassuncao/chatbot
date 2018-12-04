@@ -2,3 +2,20 @@
   height: 600px;
   overflow-y: scroll;
 }
+
+
+@media screen and (max-height: 700px) {
+
+	.chatlist{
+ 		height: 400px;
+	}	
+
+}
+
+@media screen and (max-height: 500px) {
+
+	.chatlist{
+ 		height: 250px;
+	}	
+
+}
