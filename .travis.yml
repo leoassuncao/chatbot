@@ -15,7 +15,6 @@ install:
   - npm install -g yarn
 
 script:
-  - yarn lint
   - yarn build --base-href https://leoassuncao.github.io/github-pages/
   
 deploy:
