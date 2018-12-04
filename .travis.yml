@@ -7,10 +7,12 @@ branches:
   only:
   - master
 
+cache:
+  directories:
+    - node_modules
 
 install:
   - npm install -g yarn
-  - npm install -g angular-cli
 
 script:
   - yarn build --base-href https://leoassuncao.github.io/github-pages/
