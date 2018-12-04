@@ -1,5 +1,13 @@
 .chatform{
-  width: 600px;
+  width: 90%;
   margin: 0 auto;
   margin-top: 50px;
+}
+
+
+@media screen and (min-width: 900px) {
+ .chatform{
+  width: 50%;
+
+	}
 }
