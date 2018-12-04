@@ -7,12 +7,7 @@ branches:
   only:
   - master
 
-cache:
-  directories:
-    - node_modules
-
 install:
-  -npm install bootstrap
   - npm install -g yarn
 
 script:
