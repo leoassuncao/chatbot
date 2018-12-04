@@ -33,4 +33,5 @@ export class MessageFormComponent implements OnInit {
     this.message = new Message('', 'assets/images/user.png');
 }
 
+
 }
