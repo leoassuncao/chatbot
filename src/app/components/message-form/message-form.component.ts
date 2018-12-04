@@ -30,7 +30,7 @@ export class MessageFormComponent implements OnInit {
       );
     });
 
-    this.message = new Message('', '/assets/user.png', "Você", this.message.timestamp);
+    this.message = new Message('', 'assets/user.png', "Você", this.message.timestamp);
 }
 
 
