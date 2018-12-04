@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## About
 
-GithubPages was first a repo for me to learn how to deploy an angular page to GithubPages. Then, it evolved to include a Continuous Integration with Travis. And at this moment, its evolving again to be a personal chatbot using Dialogflow. It can evolve again anytime, who knows.
+GithubPages was first a repo for me to learn how to deploy an angular page to GithubPages. Then, it evolved to include a Continuous Integration with Travis. And at this moment, it's evolving again to be a personal chatbot using Dialogflow. It can evolve again anytime, who knows.
 
 ## Objectives 
 
