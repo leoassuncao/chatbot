@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "chatbot": {
+    "github-pages": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "chatbot:build"
+            "browserTarget": "github-pages:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "chatbot:build:production"
+              "browserTarget": "github-pages:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "chatbot:build"
+            "browserTarget": "github-pages:build"
           }
         },
         "test": {
@@ -102,7 +102,7 @@
         }
       }
     },
-    "chatbot-e2e": {
+    "github-pages-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -111,11 +111,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "chatbot:serve"
+            "devServerTarget": "github-pages:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "chatbot:serve:production"
+              "devServerTarget": "github-pages:serve:production"
             }
           }
         },
@@ -131,5 +131,5 @@
       }
     }
   },
-  "defaultProject": "chatbot"
+  "defaultProject": "github-pages"
 }
