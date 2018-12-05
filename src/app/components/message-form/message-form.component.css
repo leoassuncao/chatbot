@@ -13,3 +13,17 @@
   border-radius: 0;
   text-transform: uppercase;
 }
+
+
+@media screen and (min-width: 400px) {
+ 	
+ 	.chatcontrol .sendbtn {
+  width: 30%;
+}
+
+.chatcontrol .chatinput {
+  width: 70%;
+
+}
+
+}
