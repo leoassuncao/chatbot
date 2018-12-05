@@ -15,7 +15,7 @@ install:
   - npm install -g yarn
 
 script:
-  - yarn build --base-href https://leoassuncao.github.io/chat-bot
+  - yarn build --base-href https://leoassuncao.github.io/chatbot/
   
 deploy:
   provider: pages
