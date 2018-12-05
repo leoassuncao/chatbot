@@ -1,5 +1,5 @@
 {
-  "name": "github-pages",
+  "name": "chatbot",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,7 +12,7 @@
   "private": true,
   "author": "Leonardo Assunç~cao",
   "license": "MIT",
-  "homepage": "https://leoassuncao.github.io/github-pages/",
+  "homepage": "https://leoassuncao.github.io/chatbot/",
   "dependencies": {
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",
