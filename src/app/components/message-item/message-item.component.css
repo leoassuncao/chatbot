@@ -26,6 +26,7 @@
 	float: right;
  background-color: #fff  !important ;
  color: #000 !important;
+ margin-right: 20px;
 }
 
 .user-avatar {
@@ -40,4 +41,30 @@
   display: inline-block;
   background-color : #0088cc;
   color: #fff;
+}
+
+.list-group-item:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -15px;
+  right: auto;
+  top: 38px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #0088cc transparent transparent transparent;
+}
+
+.user-msg:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -15px;
+  top: 38px;
+  bottom: auto;
+  border: 20px solid;
+  border-color: #fff transparent transparent transparent;
 }
