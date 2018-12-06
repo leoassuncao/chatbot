@@ -2,6 +2,7 @@
   font-size: 1em;
   font-style: italic;
   font-weight: 400;
+
 }
 .timeform {
   float: left;
@@ -10,15 +11,20 @@
 .timeform i {
   margin-left: 20px;
 }
-.timeform .timestamp {
+.timestamp {
   font-size: 0.6em;
   float: right;
 }
 .avatar {
   width: 50px;
   margin-right: 20px;
+  float:left;
 }
 
 .user-msg {
-	background-color: #ccc;
+	float: right;
+}
+
+.list-group-item {
+  display: inline-block;
 }
