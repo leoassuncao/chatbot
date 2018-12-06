@@ -1,9 +1,9 @@
 
 	<div class="timeform">
-	<span [ngClass]="{'user-msg': message.name === 'Você'}">{{message.name}}</span>
+	<span [ngClass]="{'user-name': message.name === 'Você'}">{{message.name}}</span>
  
   </div>
-  <img [src]="message.avatar" class="avatar" [ngClass]="{'user-msg': message.name === 'Você'}"/>
+  <img [src]="message.avatar" class="avatar" [ngClass]="{'user-avatar': message.name === 'Você'}"/>
   <li class="list-group-item" [ngClass]="{'user-msg': message.name === 'Você'}">
   <div class="message"  >
     {{message.content}}

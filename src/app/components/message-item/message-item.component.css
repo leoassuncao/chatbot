@@ -3,6 +3,7 @@
   font-style: italic;
   font-weight: 400;
 
+
 }
 .timeform {
   float: left;
@@ -23,8 +24,20 @@
 
 .user-msg {
 	float: right;
+ background-color: #fff  !important ;
+ color: #000 !important;
+}
+
+.user-avatar {
+  float: right;
+}
+
+.user-name {
+  float: right;
 }
 
 .list-group-item {
   display: inline-block;
+  background-color : #0088cc;
+  color: #fff;
 }
