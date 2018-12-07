@@ -13,8 +13,18 @@ GithubPages was first a repo for me to learn how to deploy an angular page to Gi
    - [x] Github Deploy
    - [x] Travis CI
    - [ ] Chatbot (Loading...)
-   - [ ] Telegram Integration
+   - [x] Telegram Integration
 
+
+## Usage
+  
+  ### Web
+  
+  To use the chatbot in a browser, go to https://leoassuncao.github.io/github-pages and start chat with it!
+  
+  ### Telegram
+  
+  To use the chatbot via telegram, just click [here](t.me/cleochatbot "Cleo Chat Bot")
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
