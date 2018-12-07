@@ -1,24 +1,20 @@
 .message {
   font-size: 1em;
   font-style: italic;
+  font-weight: 15px;
   font-weight: 400;
+}
 
-
-}
-.timeform {
-  float: left;
-  width: 100%;
-}
-.timeform i {
-  margin-left: 20px;
-}
 .timestamp {
   font-size: 0.6em;
   float: right;
 }
+
 .avatar {
   width: 50px;
   margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
   float:left;
 }
 
@@ -31,6 +27,7 @@
 
 .user-avatar {
   float: right;
+  margin-left: 5px !important;
 }
 
 .user-name {
@@ -42,7 +39,9 @@
   max-width: 70%;
   background-color : #0088cc;
   color: #fff;
-  margin-bottom: 8px;
+  margin-top: 8px;
+  border-radius: 25px;
+  border: none;
 }
 
 .list-group-item:after {
@@ -50,9 +49,9 @@
   position: absolute;
   width: 0;
   height: 0;
-  left: -15px;
+  left: -11px;
   right: auto;
-  top: 38px;
+  top: 35px;
   bottom: auto;
   border: 20px solid;
   border-color: #0088cc transparent transparent transparent;
@@ -64,8 +63,8 @@
   width: 0;
   height: 0;
   left: auto;
-  right: -15px;
-  top: 38px;
+  right: -11px;
+  top: 35px;
   bottom: auto;
   border: 20px solid;
   border-color: #fff transparent transparent transparent;
