@@ -24,7 +24,8 @@ GithubPages was first a repo for me to learn how to deploy an angular page to Gi
   
   ### Telegram
   
-  To use the chatbot via telegram, just click [here](t.me/cleochatbot "Cleo Chat Bot")
+  To use the chatbot via telegram, just click [here](https://web.telegram.org/#/im?p=@cleochatbot "Cleo Chat Bot") or search for @cleochatbot
+  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
