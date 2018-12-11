@@ -7,9 +7,9 @@ branches:
   only:
   - master
 
-
 install:
   - npm install -g yarn
+  - npm install
 
 script:
   - yarn build --base-href https://leoassuncao.github.io/lia-chatbot/
