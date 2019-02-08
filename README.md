@@ -12,8 +12,11 @@ Lia-Chatbot was first a repo for me to learn how to deploy an angular page to Gi
 
    - [x] Github Deploy
    - [x] Travis CI
-   - [ ] Chatbot (Loading...)
+   - [x] Chatbot 
    - [x] Telegram Integration
+   - [x] Google Assistent Integration
+   - [ ] Iphone Integration (?)
+   - [ ] Documentation
 
 
 ## Usage
